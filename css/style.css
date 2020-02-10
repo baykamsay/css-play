@@ -2,7 +2,9 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffcf;
+    background: #A1FFCE;
+    background: linear-gradient(to left, #FAFFD1, #A1FFCE);
+    padding: 4%
 }
 
 img {
@@ -10,21 +12,40 @@ img {
 }
 
 h1 {
-    border: 5px dotted red;
+/*    border: 5px dotted red; */
     text-align: center;
+    font-size: 4rem;
 }
 
 blockquote {
     font-family: Georgia, serif;
-    font-size: 3rem;
+    font-size: 2rem;
     font-style: normal;
 }
 
 cite {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .bigbold {
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+li a:link {
+    font-weight: bold;
+    font-style: italic;
+    color: firebrick;
+}
+
+li a:visited {
+    color: darkblue;
+}
+
+li a:hover {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 900;
+    color: coral;
+    font-style: normal;
 }
