@@ -1,0 +1,30 @@
+/* my first css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffcf;
+}
+
+img {
+    border: 10px solid green;
+}
+
+h1 {
+    border: 5px dotted red;
+    text-align: center;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 3rem;
+    font-style: normal;
+}
+
+cite {
+    font-size: 2rem;
+}
+
+.bigbold {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
