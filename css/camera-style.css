@@ -1,0 +1,28 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 5vh;
+    background-color: #FFFDFA;
+    color: #29384D;
+}
+
+h1 {
+    text-align: center;
+    color: #FF283F;
+}
+
+blockquote {
+    font-family: Cambria, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #517394;
+    border: .2vh dashed #3C556E;
+    padding: 1vh;
+}
+
+a:link {
+    color: #517394;
+}
+
+.themarkets {
+    color: #FF283F;
+    font-weight: bold;
+}
