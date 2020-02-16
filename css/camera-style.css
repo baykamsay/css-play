@@ -1,8 +1,10 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    padding: 5vh;
+    width: 70%;
+    margin: auto;
     background-color: #FFFDFA;
     color: #29384D;
+    text-align: justify
 }
 
 h1 {
@@ -18,6 +20,10 @@ blockquote {
     padding: 1vh;
 }
 
+cite {
+    text-align: left;
+}
+
 a:link {
     color: #517394;
 }
@@ -25,4 +31,27 @@ a:link {
 .themarkets {
     color: #FF283F;
     font-weight: bold;
+}
+
+.quote {
+    float: right;
+    width: 40%;
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+.clear:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.floatleft {
+    float: left;
+    margin: 0 1rem 1rem 0;
+}
+
+.floatright {
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
